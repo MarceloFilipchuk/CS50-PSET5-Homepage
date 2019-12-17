@@ -1,0 +1,60 @@
+body{
+    background-color:black;
+    color:green;
+}
+
+.LateralNavigationBar{
+    float: left;
+    width: 20%;
+    list-style-type: none;
+    display: block;
+    margin-left: -6%;
+}
+
+.LateralNavitationBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    border: 1px solid white;
+}
+
+.LateralNavigationBar li a{
+    text-align: center;
+    display: block;
+    background-color: green;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.LateralNavigationBar li{
+    border: 1px solid white;
+}
+
+.LateralNavigationBar li a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.LateralNavigationBar li a:hover:not{
+    background-color: green;
+    color: white;
+}
+
+.MainBody{
+    margin-top:15%
+    position: fixed;
+    display: block;
+    margin-left:25%;
+}
+
+.banner{
+    border: 1px solid white;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: green;
+    color: black;
+    width: 100%;
+}
